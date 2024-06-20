@@ -31,13 +31,13 @@ struct Smartphone {
                 return "Batteriestand niedrig"
             }
         }
-        set(status) {
-            switch status.lowercased() {
-            case "voll geladen":
+        set  {
+            switch newValue {
+            case "Batterie voll geladen":
                 batteryLevel = 100
-            case "mittel":
+            case "Batteriestand mittel":
                 batteryLevel = 50
-            case "niedrig":
+            case "Batteriestand niedrig":
                 batteryLevel = 20
             default:
                 print("Unbekannter Status")
