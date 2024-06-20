@@ -44,12 +44,24 @@ struct Smartphone {
             }
         }
     }
+    
+    var _owner: String
+    var owner: String{
+        get{
+            return _owner
+        }
+        set{
+            print("Nutzer gewechselt zu \(newValue)")
+            _owner = newValue
+        }
+    }
 
     // Initializer
-    init(brand: String, model: String, batteryLevel: Int) {
+    init(brand: String, model: String, batteryLevel: Int, owner: String) {
         self.brand = brand
         self.model = model
         self.batteryLevel = min(max(batteryLevel, 0), 100)  // Sicherstellen, dass der initiale Batteriestand zwischen 0 und 100 liegt
+        self._owner = owner
     }
 
     // Methode zum Aufladen des Smartphones
