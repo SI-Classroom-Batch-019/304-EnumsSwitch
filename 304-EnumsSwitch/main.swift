@@ -7,7 +7,7 @@
 
 import Foundation
 // Verwendung
-var myPhone = Smartphone(brand: "Apple", model: "iPhone 14", batteryLevel: 75)
+var myPhone = Smartphone(brand: "Apple", model: "iPhone 14", batteryLevel: 75, owner: "Mike Meyer")
 // Wiederholung: Smartphone Struct
 print(myPhone.batteryStatus)  // Output: Mittel
 myPhone.useBattery(by: 30)  // Output: Der Batteriestand von Apple iPhone 14 beträgt nun 45%.
@@ -103,7 +103,6 @@ default:
 // Wiederholung Range: zufällige Zahl
 
 var random: Int = Int.random(in: 1...1000)
-print(random)
 
 switch random {
 case 1...50:
