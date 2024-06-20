@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3535E46E2C24085800317A0F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3535E46D2C24085800317A0F /* main.swift */; };
+		3535E47D2C24165500317A0F /* WiederholungSmartphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3535E47C2C24165500317A0F /* WiederholungSmartphone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		3535E46A2C24085800317A0F /* 304-EnumsSwitch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "304-EnumsSwitch"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3535E46D2C24085800317A0F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3535E47C2C24165500317A0F /* WiederholungSmartphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiederholungSmartphone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				3535E46D2C24085800317A0F /* main.swift */,
+				3535E47C2C24165500317A0F /* WiederholungSmartphone.swift */,
 			);
 			path = "304-EnumsSwitch";
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3535E46E2C24085800317A0F /* main.swift in Sources */,
+				3535E47D2C24165500317A0F /* WiederholungSmartphone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
